@@ -14,7 +14,7 @@ Hudl application assignment
 
 1. `credentials.js` contains dummy credentials, please enter valid username & password in the file.
 
-2. In order to run tests locally, chromedriver version mentioned in `package.json` must match with chrome version locally. Please update it if it's otherwise.
+2. In order to run tests locally, chromedriver version mentioned in `package.json` must match with local chrome version. Please update it here https://github.com/Arshiyahassan/hudl-assignment/blob/acd7c376a643892046cb16dfeb0370111953912f/package.json#L44 if it's otherwise.
 
 ## How to Start
 
@@ -40,5 +40,5 @@ NOTE:
 1. WebdriverIO is an open-source testing automation framework written in JavaScript and runs on NodeJS.
 2. credentials are being read from `credentials.js file`
 3. In webdriverio, browser session gets automatically initialized and closed so these steps are not mentioned in the code.
-4. Mocha framework is used to run test spec files.
-5. Test results will be available on terminal once executions is finished. It includes information like test specs ran along with description and tests failed and passed.
+4. Mocha framework is used to run test specs.
+5. Test results will be available on terminal using Mocha framework once executions is finished. It includes information like test specs ran along with description and tests failed and passed.
