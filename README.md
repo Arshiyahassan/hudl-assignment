@@ -39,6 +39,6 @@ Hudl application assignment
 NOTE:
 1. WebdriverIO is an open-source testing automation framework written in JavaScript and runs on NodeJS.
 2. credentials are being read from `credentials.js file`
-3. In webdriverio, browser session gets automatically initialized and closed so these steps are not mentioned in the code.
+3. In webdriverio, browser session gets automatically initialized and closed so these steps are not included in the code.
 4. Mocha framework is used to run test specs.
-5. Test results will be available on terminal using Mocha framework once executions is finished. It includes information like test specs ran along with description and tests failed and passed.
+5. Test results will be available on terminal using Mocha framework once executions is finished. It includes information like test specs ran along with description and tests failed or passed, number of test ran, test duration etc.
